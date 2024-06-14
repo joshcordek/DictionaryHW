@@ -25,3 +25,4 @@ encrypt_output = 'encrypted.txt'
 
 encrypt_file(infosec_input, encrypt_output, codes)
 
+
