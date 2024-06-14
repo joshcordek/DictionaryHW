@@ -6,7 +6,6 @@ def word_frequency(file):
     words = text.split()
     
     for word in words:
-        word = word.strip('!?.,:;()').lower()
         if word in word_count:
             word_count[word] += 1
         else:
@@ -15,4 +14,4 @@ def word_frequency(file):
     for word, count in word_count.items():
         print(f"{word}: {count} time(s).")
 
-word_frequency('sometext-1.txt')
+word_frequency('sometext-1.txt') 
